@@ -1,10 +1,14 @@
 
 header { 
     font-family: monospace;
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
     background-color: lightsalmon;
     animation: cores 3s infinite;
+}
+
+ul li {
+    list-style: none;
 }
 
 @keyframes cores {
@@ -13,16 +17,43 @@ header {
 }
 
 
-body { 
-    font-size: 50px;
+body  { 
+    font-size: 30px;
     text-align: center;
+    background-image: linear-gradient(to bottom right, white,rgb(238, 182, 176), white,white,rgb(238, 182, 176),  pink,white,rgb(238, 182, 176), white);
 }
+
+article > section {
+    border: 20px solid white;
+    border-radius: 80px;
+    margin-top: 10px;
+}
+
+section h4 {
+    display: inline-flex;
+}
+
+.videos {
+    display: flex ;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+.marginObjeto {
+    margin: 50px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+
 
 img {
     width: 250px;
     height: 250px;
     margin-inline-end: 80px;
     transition-duration: 2s;
+    
 }
 
 img:hover {
